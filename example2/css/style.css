@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+h2 {color:black;
+    font-size:1.5em;}
+
+div {
+    background-color:red;
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    /* If width of this ever changes, make the change happen over a 2 second duration, after a .5 second delay, with easing */
+    transition: width 2s .5s ease-out;
+}
+.wider {
+    width:400px;   
+}
